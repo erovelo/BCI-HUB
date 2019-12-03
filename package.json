@@ -7,7 +7,8 @@
     "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "rebuild": "npm rebuild --build-from-source",
-    "electron-rebuild": "electron-rebuild -w opencv4nodejs"
+    "electron-rebuild": "electron-rebuild -w opencv4nodejs",
+    "console": "nodejs openbci-console.js"
   },
   "author": "",
   "license": "ISC",
